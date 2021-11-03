@@ -8,25 +8,22 @@ const Footer = () => {
             <h4>Follow Us:</h4>
             <div className={`d-flex flex-row bd-highlight mb-3 ${classes.icons}`}>
                 <div className={`p-2 bd-highlight`}>
-                    <a href="#"><i className="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank"><i className="bi bi-facebook"></i></a>
                 </div>
                 <div className="p-2 bd-highlight">
-                    <a href="#"><i className="bi bi-twitter"></i></a>
+                    <a href="https://twitter.com/gdsciiits" target="_blank"><i className="bi bi-twitter"></i></a>
                 </div>
                 <div className="p-2 bd-highlight">
-                    <a href="#"><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/gdsciiits/" target="_blank"><i className="bi bi-instagram"></i></a>
                 </div>
                 <div className="p-2 bd-highlight">
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/GDSCIIITS" target="_blank"><i className="bi bi-github"></i></a>
                 </div>
                 <div className="p-2 bd-highlight">
-                    <a href="https://in.linkedin.com/company/gdsc-iiit-sri-city"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://in.linkedin.com/company/gdsc-iiit-sri-city" target="_blank"><i className="bi bi-linkedin"></i></a>
                 </div>
                 <div className="p-2 bd-highlight">
-                    <a href="#"><i className="bi bi-youtube"></i></a>
-                </div>
-                <div className="p-2 bd-highlight">
-                    <a href="#"><i className="bi bi-medium"></i></a>
+                    <a href="#" target="_blank"><i className="bi bi-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -38,10 +35,13 @@ const Footer = () => {
                 <div className="col-sm-12 col-md-2">
                     <h2>GDCSIIITS</h2>
                 </div>
-                <div className={`col-md-2 col-sm-12 ${classes.options}`}>Code Of Conduct</div>
-                <div className={`col-md-2 col-sm-12 ${classes.options}`}>Terms & Services</div>
-                <div className={`col-md-4 col-sm-12 ${classes.options}`}>Community Guidelines</div>
-                <div className={`col-md-2 col-sm-12 ${classes.options} ${classes.ref}`}>Based on Project <a href="https://github.com/GDSCIIITS/GDSC-Website">gdsciiits</a></div>
+                <div className={`col-md-2 col-sm-12 ${classes.options}`}><a href="#" target="_blank">Code Of Conduct</a></div>
+                <div className={`col-md-2 col-sm-12 ${classes.options}`}><a href="#" target="_blank">Terms & Services</a></div>
+                <div className={`col-md-4 col-sm-12 ${classes.options}`}><a href="#" target="_blank">Community Guidelines</a></div>
+                <div className={`col-md-2 col-sm-12 ${classes.ref}`}>
+                    Based on Project
+                    <a href="https://github.com/GDSCIIITS/GDSC-Website"> gdsciiits</a>
+                </div>
             </div>
         </div>
     </footer>
