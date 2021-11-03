@@ -1,4 +1,5 @@
 import React from 'react';
+import Content from './content';
 import classes from './footer.module.css'
 
 const Footer = () => {
@@ -6,6 +7,7 @@ const Footer = () => {
         <div className={"container" + " " + classes.heading}>
         </div>
         <div className={"container" + " " + classes.content}>
+            < Content />
         </div>
         <div className={"container" + " " + classes.trailing}>
         </div>
