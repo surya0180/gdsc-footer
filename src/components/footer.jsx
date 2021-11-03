@@ -35,13 +35,13 @@ const Footer = () => {
         </div>
         <div className={`container ${classes.trailing}`}>
             <div className="row">
-                <div className="col-sm-2 col-md-2">
+                <div className="col-sm-12 col-md-2">
                     <h2>GDCSIIITS</h2>
                 </div>
-                <div className={`col-md-2 col-sm-2 ${classes.options}`}>Code Of Conduct</div>
-                <div className={`col-md-2 col-sm-2 ${classes.options}`}>Terms & Services</div>
-                <div className={`col-md-4 col-sm-4 ${classes.options}`}>Community Guidelines</div>
-                <div className={`col-md-2 col-sm-2 ${classes.options} ${classes.ref}`}>Based on Project <a href="https://github.com/GDSCIIITS/GDSC-Website">gdsciiits</a></div>
+                <div className={`col-md-2 col-sm-12 ${classes.options}`}>Code Of Conduct</div>
+                <div className={`col-md-2 col-sm-12 ${classes.options}`}>Terms & Services</div>
+                <div className={`col-md-4 col-sm-12 ${classes.options}`}>Community Guidelines</div>
+                <div className={`col-md-2 col-sm-12 ${classes.options} ${classes.ref}`}>Based on Project <a href="https://github.com/GDSCIIITS/GDSC-Website">gdsciiits</a></div>
             </div>
         </div>
     </footer>

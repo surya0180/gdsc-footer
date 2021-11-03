@@ -27,7 +27,7 @@ body, html {
 }
 
 .trailing {
-    padding: 1em 0;
+    padding: 1em 1em;
 }
 
 .options {
@@ -43,4 +43,58 @@ body, html {
 
 .ref a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .options {
+        padding-top: .6em;
+        font-size: 1em;
+    }
+
+    .ref {
+        font-weight: 900;
+        font-size: .8em;
+        padding-top: .8em;
+    }
+
+    .trailing h2 {
+        font-size: 1.7em;
+        padding-top: .1em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .options {
+        padding-top: .6em;
+        font-size: .7em;
+    }
+
+    .ref {
+        font-weight: 900;
+        font-size: .6em;
+        padding-top: .8em;
+    }
+
+    .trailing h2 {
+        font-size: 1.4em;
+        padding-top: .1em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .options {
+        padding-top: .6em;
+        font-size: 1em;
+    }
+
+    .ref {
+        font-weight: 900;
+        font-size: .8em;
+        padding-top: .8em;
+    }
+
+    .trailing h2 {
+        font-size: 1.7em;
+        padding-top: .1em;
+    }
 }
